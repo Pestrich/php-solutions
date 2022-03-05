@@ -1,0 +1,22 @@
+{
+    "name": "pestrich/php-solutions",
+    "description": "The Pestrich PHP solutions.",
+    "keywords": [
+        "solutions"
+    ],
+    "type": "project",
+    "authors": [
+        {
+            "name": "Vitaly Kuznetsov",
+            "email": "bnm9229bnm@yandex.ru"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
